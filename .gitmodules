@@ -1,0 +1,3 @@
+[submodule "examples/thunder"]
+	path = examples/thunder
+	url = https://github.com/BlobTheKat/thunder

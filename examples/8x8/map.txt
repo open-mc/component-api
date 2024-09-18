@@ -1,0 +1,7 @@
+# Replace all of these vanilla assets
+./blocks.png
+./items.png
+./animated.png
+./portal.png
+./endercrystal.png
+./command_blocks.png
