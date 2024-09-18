@@ -51,6 +51,7 @@ And the contents of the map.txt file might look like
 Note that the paths on the left are relative to the mapped component `vanilla` and the ones on the right are relative to the `map.txt` file.
 
 > Note: While the resources replaced are relative to `vanilla`, any other component that shares the same resources will receive the changed file too.
-> Note 2: If you replace JS files, if the original file imports any other files, those may not be imported anymore. The new file's imports will be imported instead
+> 
+> Note 2: When replacing JS files, if the original file imports any other files, those may not be imported anymore. The new file's imports will be imported instead
 
 If you update your component's files frequently, it is strongly recommended that you use versioning. This helps the client to immediately replace cache of old versions so that your players are always using the newest version. For the example above, if map.txt was updated, we would replace `https://vanilla-plus.net/map.txt` with `https://vanilla-plus.net/map.txt^1`, and then `^2`, and then `^3`, etc for every change made. This applies to component URLs as well as the contents of resource map files, javascipt import URLs, cache list files, etc...
